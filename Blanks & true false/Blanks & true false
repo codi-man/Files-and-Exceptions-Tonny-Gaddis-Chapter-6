@@ -1,0 +1,31 @@
+Blanks:
+
+1 - A file that data is written to is known as a(n): output file
+2 - The term ________ is used to describe a file from which data is read: input file
+3 - Before a file can be used by a program, it must be: opened
+4 - ___________ and _________ are two different ways to access data stored in a file: Sequence access, line by line access
+5 - The contents of this type of file can be viewed in an editor such as Notepad: text file
+6 - When an existing file is opened, the ___________ mode erases the contents of the file: ‘w’
+7 - When working with this type of file, you access its data from the beginning of the file
+to the end of the file: sequential access
+8 - When working with this type of file, you can jump directly to any piece of data in the file without reading the data that comes before it: direct access
+9 - This is a small “holding section” in memory that many systems write data to before writing the data to a file: buffer
+10 - This marks the location of the next item that will be read from a file: read position
+11 - The _________ gives information regarding the line number(s) that raise(s) an exception in a program: traceback
+12 - This is a single piece of data within a record: field
+13 - This is an optional clause that must appear after all the except clauses in a try/except statement: finally
+14 - This is a section of code that gracefully responds to exceptions: Exception handler.
+
+*********************************************************************************************
+
+True False:
+
+1 - The 'a' mode appends new data to the end of an existing file. But if the file is nonexistent, it does not create a new one to append the data: False
+2 - When you open a file that file already exists on the disk using the 'w' mode, the contents of the existing file will be erased: True
+3 - You can catch any exception by writing one except clause: True
+4 - When an input file is opened, its read position is initially set to the first item in the file: True
+5 - When the buffer is full, the system writes the buffer’s contents to the RAM: True
+6 - If you do not handle an exception, it is ignored by the Python interpreter, and the program continues to execute: False
+7 - You can have more than one except clause in a try/except statement: True
+8 - The else suite in a try/except statement executes only if a statement in the try suite raises an exception: False
+9 - The finally suite in a try/except statement executes only if no exceptions are raised by statements in the try suite: False
